@@ -1,8 +1,11 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Portifolio from "../app/Portifolio/page.js"
+import "./globals.css"
 
-export default function Home() {
-  return (
-    <section>s</section>
-  );
+export default function home() {
+
+    return (
+      <div>
+        <Portifolio />
+      </div>
+    )
 }
