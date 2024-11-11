@@ -9,16 +9,18 @@ body {
     border: 2px solid #000;
 }
 
-h1 {
+.principal {
     font-style: italic;
     color: rgb(0, 0, 0);
     border: 10px solid rgb(150, 0, 0);
     border-radius: 20px;
-    position: absolute;
-    top: 7%;
-    left: 35%;
-    transform-origin: center;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 40px;
+    width: 50%;
+    margin-left: 300px;
     transition: transform 0.4s ease-in-out;
 }
 
@@ -34,10 +36,27 @@ p {
     padding: 29px;
     text-align: center;
     width: 1200px;
-    margin-bottom: 90px;
     transition: transform 0.4s ease-in-out;
 }
 
 p:hover {
     transform: scale(1.1)
+}
+.links {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
